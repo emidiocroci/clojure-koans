@@ -21,7 +21,7 @@
 
   "Repetition is key"
   (= [:a :a :a :a :a :a :a :a :a :a]
-     (repeat 10 __))
+     (repeat 10 :a))
 
   "Iteration can be used for repetition"
   (= (repeat 100 :hello)
